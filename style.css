@@ -1,0 +1,280 @@
+body{
+    color:#000000;
+    background-color:  #5C5470;
+    font-family: 'Quicksand';
+}
+/********NAVBAR******/
+#header-nav{
+    background-color: #DBD8E3;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+/*******CAROUSEL*******/
+#carouselExampleFade{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 1px 5px 1px #352F44;
+}
+
+#carouselExampleFade:hover{
+    box-shadow: 0 1px 5px 1px #b6a2ec;
+
+}
+.carousel-caption h2{
+    font-size: 25px;
+    color:#b6a2ec;
+    background-color: #000;
+	opacity: .8;
+    border-radius: 9cm;
+    margin: auto;
+    max-width: 30%;
+
+}
+
+/*******IMAGE TILES******/
+#menu-tile, #specials-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #352F44;
+    overflow: hidden;
+
+}
+
+#menu-tile{
+    background: url('/images/menu-tile.jpg') no-repeat;
+    background-position: center;
+}
+
+#specials-tile{
+    background: url('/images/specials-tile.jpg') no-repeat;
+    background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #b6a2ec;
+	opacity: .8;
+
+}
+
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #b6a2ec;
+}
+
+/*********FOOTER*******/
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #DBD8E3;
+    border-top: 0;
+}
+
+.panel-footer div.row{
+    margin-bottom: 35px;
+}
+
+#hours, #address, #socials{
+    line-height: 2;
+}
+
+#hours span, #address span, #socials span{
+    font-size: 1.8em;
+}
+
+#address p{
+    color: #392272;
+    font-size: .8em;
+    line-height: 1.8;
+
+}
+
+
+#menu{
+    margin: auto;
+    margin-top: 20px;
+    color:#DBD8E3;
+}
+
+.card-text, .card-title{
+    color: #5C5470;
+}
+
+.card-title small{
+    font-size: 16px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2cm;
+}
+
+.btn{
+    background-color: #5C5470;
+}
+
+.back .btn{
+    background-color: #e40d29;
+   
+}
+.card:hover{
+    box-shadow: 0 1px 5px 1px #b6a2ec;
+}
+
+
+#about-img{
+    box-shadow:0 1px 5px 1px #000000;
+}
+
+#about{
+   box-shadow: 5px 5px 5px 5px #352F44;
+  border-radius: 1cm;
+    background-color: #DBD8E3;
+    color: #352F44;
+    padding: 5px;
+    
+    
+}
+
+#founder-img{
+    box-shadow:0 1px 5px 1px #000000;
+    border-radius: 10cm;
+}
+
+
+#award-img{
+    box-shadow:0 1px 5px 1px #000000;
+    border-radius: 1cm;
+}
+
+.list-group-item{
+    background-color: #DBD8E3;
+    color: #352F44;
+}
+
+.list-group{
+    border-radius: 1cm;
+    box-shadow: 5px 5px 5px 5px #352F44;
+}
+
+.form-label{
+    color: #352F44;
+    font-size: 20px;
+}
+
+.form-control{
+    font-size: 20px;
+}
+
+.modal-content{
+    background-color: #DBD8E3;
+    color: #352F44;
+}
+
+
+
+
+
+/*********MEDIA QUERIES*********/
+
+/*******EXTRA SMALL DEVICES ONLY****/
+@media (max-width: 575px){
+    #menu-tile, #specials-tile{
+        width: 300px;
+        margin: 0 auto 15px;
+    }	
+
+
+
+.panel-footer section{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.panel-footer section hr{
+    margin:auto;
+    border: 1px solid #000000;
+	width: 50%;
+}
+}
+
+
+
+/*
+#logo-img{
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color:#557c3e;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/*
+.navbar-brand p span{
+    vertical-align: middle;
+}
+
+.navbar-brand a{
+	text-decoration: none;
+
+}
+
+.navbar-toggler-icon{
+    background-color: #961C49;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #961C49;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.nav-item a span{
+    font-size: 1.3em;
+}
+
+.nav-item a:hover{
+    color:#fff
+    ;
+}
+
+#phone{
+    margin-top: 5px;
+
+}
+
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div{
+   color: #667c3e;
+   text-align: right;
+   padding-right: 15px;
+}
+
+
+
+
+
